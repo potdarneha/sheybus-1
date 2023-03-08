@@ -1,0 +1,21 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 500px) { 
+    .table-container {
+      overflow-x: auto; /* Allow horizontal scrolling on smaller devices */
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) { 
+    .table-container {
+      overflow-x: initial; /* Remove horizontal scrolling */
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) { 
+    .table-container {
+      overflow-x: initial; /* Remove horizontal scrolling */
+    }
+  }
+  
